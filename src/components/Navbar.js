@@ -118,7 +118,7 @@ const Navbar = () => {
 
   return (
     <Nav>
-      <div className={openMenu ? "menuIcon active" : "menuIcon"}>
+      <div className= {openMenu ? "menuIcon active" : "menuIcon"}>
         <ul className="navbar-list">
           <li>
             <NavLink
